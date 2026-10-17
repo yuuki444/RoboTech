@@ -77,7 +77,7 @@ func seedData() {
 	if count == 0 {
 		DB.Exec(`INSERT INTO videos (title, youtube_id, description) VALUES 
 			('1 Урок по Python. Print(). Переменные. Типы данных.', '3zLD1APZUn4', 'Базовое введение.'),
-			('2 Урок по Python.  Input(). Условные операторы if, else, elif. Внутренние операторы and, or.', 'c4zItcGifE8', 'Создаем первые условия.');`),
-      ('3 Урок по Python. Циклы for, while.', '8p0KC4akylQ', 'Задачи с циклами.');`)
+			('2 Урок по Python.  Input(). Условные операторы if, else, elif. Внутренние операторы and, or.', 'c4zItcGifE8', 'Создаем первые условия.'),
+      		('3 Урок по Python. Циклы for, while.', '8p0KC4akylQ', 'Задачи с циклами.');`)
 	}
 }
